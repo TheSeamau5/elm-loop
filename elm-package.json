@@ -1,7 +1,7 @@
 {
     "version": "1.0.0",
-    "summary": "helpful summary of your project, less than 80 characters",
-    "repository": "https://github.com/USER/PROJECT.git",
+    "summary": "For-loops and While-loops in Elm",
+    "repository": "https://github.com/TheSeamau5/elm-loop.git",
     "license": "BSD3",
     "source-directories": [
         "src"
