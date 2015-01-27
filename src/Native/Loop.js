@@ -1,11 +1,11 @@
 Elm.Native.Loop = Elm.Native.Loop || {};
-Elm.Native.Loop.make = function(elm){
+Elm.Native.Loop.make = function(localRuntime){
 
-  elm.Native = elm.Native || {};
-  elm.Native.Loop = elm.Native.Loop || {};
+  localRuntime.Native = localRuntime.Native || {};
+  localRuntime.Native.Loop = localRuntime.Native.Loop || {};
 
-  if (elm.Native.Loop.values){
-    return elm.Native.Loop.values;
+  if (localRuntime.Native.Loop.values){
+    return localRuntime.Native.Loop.values;
   }
 
   var clone = function(obj) {
